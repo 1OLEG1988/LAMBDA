@@ -97,4 +97,45 @@ body {
   color: #fff;
 }
 
+.decor {
+  margin-left: 23rem;
+}
 /* BOTTOM */
+
+.btn:link,
+.btn:visited {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #fff;
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  background-color: rgba(0, 0, 0, 0.702);
+  opacity: 1;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1.6rem 3.2rem;
+}
+.btn--full:link,
+.btn--full:visited {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #fff;
+  padding: 1.6rem 3.2rem;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  background-color: rgba(255, 255, 255, 0.278);
+  opacity: 1;
+  text-decoration: none;
+  position: relative;
+}
+.margin-right {
+  margin-right: 5rem !important;
+}
+.btn2 {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
