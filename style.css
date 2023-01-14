@@ -3,23 +3,21 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1;
-  font-weight: 500;
-  color: #fff;
-
-  overflow-x: hidden;
 }
-.container {
-  /* 1140px */
-  max-width: 114rem;
-  margin: 0 auto;
-  padding: 0 3.2rem;
+
+.logo {
+  padding-right: 14rem;
+  height: 3.2rem;
+  filter: contrast(0);
+  opacity: 99%;
 }
 
 .section-hero {
@@ -33,75 +31,74 @@ body {
   background-size: cover;
   color: #fff;
 }
-.logo {
-  height: 4.2rem;
-  filter: contrast(0);
-  opacity: 99%;
-}
-.header-basic {
-  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.4);
-  background-color: #0707072f;
+
+header {
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.411);
+  background-color: rgba(243, 240, 240, 0.014);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   height: 7rem;
-  padding: 0 30px;
 }
-.main-nav-list {
-  list-style: none;
-  font-size: 1rem;
-  text-decoration: none;
-  text-transform: uppercase;
+
+.link {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  list-style: none;
+  font-size: 1.5rem;
+  font-family: "GentiumBookBasic";
+  font-weight: bold;
 }
 
 .main-nav-link:link .main-nav-link:visited {
-  display: inline-block;
   text-decoration: none;
   font-weight: 500;
   font-size: 1.8rem;
   transition: all 0.3s;
 }
+
 .main-nav-link:hover,
 .main-nav-link:active {
   text-decoration: none;
-  background-color: rgb(236, 236, 17);
-  border-radius: 50%;
+  border-top: 1px solid;
 }
+
 .main-nav-link:link,
 .main-nav-link:visited {
   text-decoration: none;
-  padding: 1.2rem 3.4rem;
+  padding: 1.2rem 2.4rem;
   color: #fff;
 }
+
 .social-link {
-  padding: 1rem;
+  padding-right: 14rem;
+  list-style: none;
+  display: flex;
   color: rgb(236, 236, 17);
 }
 
-.hero-text-box {
+.social-icon {
+  font-size: 1.8rem;
+  padding: 1.2rem;
+}
+
+.hero {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .header {
-  font-family: "YesevaOne";
-  font-size: 7rem;
-  font-weight: 700;
-  letter-spacing: 1.2px;
   text-align: center;
-  margin-bottom: 2rem;
-  color: #fff;
+  font-size: 7rem;
+  font-family: "YesevaOne";
+  line-height: 1.2;
 }
 
 .decor {
   margin-left: 23rem;
+  margin-top: 2rem;
 }
-/* BOTTOM */
-
 .btn:link,
 .btn:visited {
   font-size: 2rem;
@@ -135,7 +132,7 @@ body {
 }
 .btn2 {
   position: absolute;
-  top: 80%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
