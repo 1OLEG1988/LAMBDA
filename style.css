@@ -16,8 +16,6 @@ body {
 .logo {
   padding-right: 14rem;
   height: 3.2rem;
-  filter: contrast(0);
-  opacity: 99%;
 }
 
 .section-hero {
@@ -27,9 +25,8 @@ body {
       rgba(34, 34, 34, 0.6),
       rgba(34, 34, 34, 0.6)
     ),
-    url(img/hero.jpg);
+    url(img/bg-ingredients.png);
   background-size: cover;
-  color: #fff;
 }
 
 header {
@@ -93,6 +90,7 @@ header {
   font-size: 7rem;
   font-family: "YesevaOne";
   line-height: 1.2;
+  color: #fff;
 }
 
 .decor {
